@@ -1,11 +1,11 @@
 <div align="center">
 
-<!-- CINEMATIC PIXEL ART HERO BANNER -->
+<!-- CINEMATIC HERO BANNER (35% LUFFY THREE-QUARTER COMPOSITION) -->
 <img src="./assets/luffy-hero.gif" alt="Prem T H - The Next Adventure is Code" width="100%" />
 
 <br/><br/>
 
-<!-- ABOUT ME -->
+<!-- ABOUT ME: EDITORIAL MINIMALISM -->
 <h2>Hey, I'm Prem!</h2>
 
 <p>
@@ -29,50 +29,52 @@
 
 <br/>
 
-<!-- GEAR 5 TRANSITION -->
+<!-- TRANSITION ACCENT -->
 <img src="./assets/gear5-transition.gif" alt="Gear 5 Energy Transition" width="100%" />
 
 <br/><br/>
 
-<!-- TECH STACK: ICONS ONLY -->
-<table border="0" cellpadding="0" cellspacing="12" align="center">
+<!-- TECH STACK: ICONS ONLY (CLEAN COMPOSITION, NO OUTLINE BOXES) -->
+<table border="0" cellpadding="0" cellspacing="16" align="center">
   <tr>
-    <td align="center" valign="top">
-      <h4>AI DEVELOPMENT</h4>
+    <td align="center" valign="middle">
+      <sub style="letter-spacing: 2px;"><b>AI DEVELOPMENT</b></sub>
+      <br/><br/>
       <a href="https://www.python.org" target="_blank">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="46" height="46" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="52" height="52" />
       </a>
     </td>
-    <td width="40"></td>
-    <td align="center" valign="top">
-      <h4>FULL-STACK DEVELOPMENT</h4>
+    <td width="48"></td>
+    <td align="center" valign="middle">
+      <sub style="letter-spacing: 2px;"><b>FULL-STACK DEVELOPMENT</b></sub>
+      <br/><br/>
       <p align="center">
         <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" width="46" height="46" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" width="48" height="48" />
         </a>
-        &nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;
         <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" width="46" height="46" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" width="48" height="48" />
         </a>
-        &nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;
         <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="46" height="46" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="48" height="48" />
         </a>
-        &nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;
         <a href="https://www.typescriptlang.org" target="_blank">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" width="46" height="46" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" width="48" height="48" />
         </a>
-        &nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;
         <a href="https://nodejs.org" target="_blank">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" width="46" height="46" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" width="48" height="48" />
         </a>
-        &nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;
         <a href="https://www.postgresql.org" target="_blank">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="46" height="46" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="48" height="48" />
         </a>
-        &nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;
         <a href="https://www.mongodb.com" target="_blank">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="46" height="46" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="48" height="48" />
         </a>
       </p>
     </td>
@@ -81,16 +83,11 @@
 
 <br/><br/>
 
-<!-- GEAR 5 TRANSITION -->
-<img src="./assets/gear5-transition.gif" alt="Gear 5 Energy Transition" width="100%" />
-
-<br/><br/>
-
-<!-- PROJECT SHOWCASE: THE GRAND LINE -->
+<!-- THE GRAND LINE: IMMERSIVE PIXEL WORLDS -->
 <h2>THE GRAND LINE</h2>
 <p><i>Featured open-source expeditions and systems</i></p>
 
-<table border="0" cellpadding="0" cellspacing="12" width="100%">
+<table border="0" cellpadding="0" cellspacing="14" width="100%">
   <tr>
     <td width="50%" align="center" valign="top">
       <a href="https://github.com/Prem17th/Arise">
@@ -155,11 +152,11 @@
 
 <br/><br/>
 
-<!-- ANIMATED FOOTER -->
+<!-- CINEMATIC MOONLIT FOOTER -->
 <img src="./assets/footer.gif" alt="The Adventure Continues" width="100%" />
 
 <br/>
 
-<sub>One Piece × Pixel Art × Engineering. © Prem T H</sub>
+<sub>One Piece × Pixel Cinema × Modern Engineering. © Prem T H</sub>
 
 </div>
