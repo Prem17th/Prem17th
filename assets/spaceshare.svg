@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 220" width="560" height="220">
+  <defs>
+    <linearGradient id="ss-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#101820" />
+      <stop offset="100%" stop-color="#101520" />
+    </linearGradient>
+  </defs>
+  <rect width="560" height="220" fill="url(#ss-bg)" rx="6" />
+  <rect x="0.5" y="0.5" width="559" height="219" fill="none" stroke="#167D8D" stroke-width="0.5" stroke-opacity="0.2" rx="6" />
+  
+  <!-- Building / map grid visual -->
+  <g transform="translate(415, 105)" opacity="0.4">
+    <!-- Map pin -->
+    <path d="M0,-45 C15,-45 25,-35 25,-22 C25,-5 0,20 0,20 C0,20 -25,-5 -25,-22 C-25,-35 -15,-45 0,-45Z" fill="none" stroke="#167D8D" stroke-width="1" />
+    <circle cx="0" cy="-25" r="7" fill="none" stroke="#E8B44D" stroke-width="0.7" />
+    <circle cx="0" cy="-25" r="2.5" fill="#E8B44D" opacity="0.5" />
+    <!-- Grid lines (city/map) -->
+    <line x1="-50" y1="30" x2="50" y2="30" stroke="#167D8D" stroke-width="0.3" stroke-opacity="0.3" />
+    <line x1="-50" y1="40" x2="50" y2="40" stroke="#167D8D" stroke-width="0.3" stroke-opacity="0.3" />
+    <line x1="-50" y1="50" x2="50" y2="50" stroke="#167D8D" stroke-width="0.3" stroke-opacity="0.3" />
+    <line x1="-30" y1="25" x2="-30" y2="55" stroke="#167D8D" stroke-width="0.3" stroke-opacity="0.3" />
+    <line x1="0" y1="25" x2="0" y2="55" stroke="#167D8D" stroke-width="0.3" stroke-opacity="0.3" />
+    <line x1="30" y1="25" x2="30" y2="55" stroke="#167D8D" stroke-width="0.3" stroke-opacity="0.3" />
+    <!-- Small building shapes -->
+    <rect x="-28" y="32" width="8" height="6" fill="#167D8D" opacity="0.3" />
+    <rect x="5" y="33" width="10" height="5" fill="#167D8D" opacity="0.3" />
+    <rect x="32" y="31" width="6" height="7" fill="#167D8D" opacity="0.3" />
+  </g>
+
+  <text x="35" y="42" fill="#167D8D" font-family="Georgia, serif" font-size="11" letter-spacing="4" opacity="0.5">05</text>
+  <text x="35" y="75" fill="#F3E9D2" font-family="Georgia, serif" font-size="28" letter-spacing="2">SPACESHARE</text>
+  <line x1="35" y1="85" x2="240" y2="85" stroke="#167D8D" stroke-width="0.5" stroke-opacity="0.3" />
+  
+  <text x="35" y="110" fill="#F3E9D2" font-family="Segoe UI, sans-serif" font-size="12" opacity="0.8">Shared-space marketplace with search, bookings,</text>
+  <text x="35" y="128" fill="#F3E9D2" font-family="Segoe UI, sans-serif" font-size="12" opacity="0.8">host dashboards, interactive maps, QR verification,</text>
+  <text x="35" y="146" fill="#F3E9D2" font-family="Segoe UI, sans-serif" font-size="12" opacity="0.8">and AI-powered trip planning.</text>
+
+  <text x="35" y="180" fill="#167D8D" font-family="Segoe UI, sans-serif" font-size="10" letter-spacing="1">REACT · TYPESCRIPT · SUPABASE · LEAFLET · GEMINI</text>
+  <text x="35" y="202" fill="#167D8D" font-family="Georgia, serif" font-size="11" opacity="0.4">View Project →</text>
+</svg>

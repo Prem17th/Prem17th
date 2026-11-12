@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 220" width="560" height="220">
+  <defs>
+    <linearGradient id="cl-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#101820" />
+      <stop offset="100%" stop-color="#181018" />
+    </linearGradient>
+  </defs>
+  <rect width="560" height="220" fill="url(#cl-bg)" rx="6" />
+  <rect x="0.5" y="0.5" width="559" height="219" fill="none" stroke="#E8B44D" stroke-width="0.5" stroke-opacity="0.2" rx="6" />
+  
+  <!-- Magnifying glass / verification visual -->
+  <g transform="translate(425, 100)" opacity="0.45">
+    <!-- Magnifying glass -->
+    <circle cx="0" cy="-10" r="35" fill="none" stroke="#E8B44D" stroke-width="1.5" />
+    <circle cx="0" cy="-10" r="28" fill="none" stroke="#E8B44D" stroke-width="0.5" stroke-opacity="0.3" />
+    <line x1="24" y1="15" x2="50" y2="45" stroke="#E8B44D" stroke-width="2.5" stroke-linecap="round" />
+    <!-- Check marks inside lens -->
+    <path d="M-12,-15 L-5,-8 L8,-22" fill="none" stroke="#167D8D" stroke-width="1.5" stroke-linecap="round" />
+    <path d="M-12,0 L-5,7 L8,-7" fill="none" stroke="#167D8D" stroke-width="1" stroke-linecap="round" stroke-opacity="0.5" />
+    <!-- Document lines -->
+    <line x1="-18" y1="15" x2="12" y2="15" stroke="#A77B4A" stroke-width="0.5" stroke-opacity="0.3" />
+    <line x1="-15" y1="20" x2="8" y2="20" stroke="#A77B4A" stroke-width="0.5" stroke-opacity="0.3" />
+  </g>
+
+  <text x="35" y="42" fill="#E8B44D" font-family="Georgia, serif" font-size="11" letter-spacing="4" opacity="0.5">04</text>
+  <text x="35" y="75" fill="#F3E9D2" font-family="Georgia, serif" font-size="28" letter-spacing="2">CLAIMLENS</text>
+  <line x1="35" y1="85" x2="230" y2="85" stroke="#E8B44D" stroke-width="0.5" stroke-opacity="0.3" />
+  
+  <text x="35" y="110" fill="#F3E9D2" font-family="Segoe UI, sans-serif" font-size="12" opacity="0.8">Evidence-driven misinformation detection with</text>
+  <text x="35" y="128" fill="#F3E9D2" font-family="Segoe UI, sans-serif" font-size="12" opacity="0.8">ML style analysis, external fact-checking, and</text>
+  <text x="35" y="146" fill="#F3E9D2" font-family="Segoe UI, sans-serif" font-size="12" opacity="0.8">human-in-the-loop review with audit logging.</text>
+
+  <text x="35" y="180" fill="#A77B4A" font-family="Segoe UI, sans-serif" font-size="10" letter-spacing="1">PYTHON · FASTAPI · STREAMLIT · SCIKIT-LEARN</text>
+  <text x="35" y="202" fill="#E8B44D" font-family="Georgia, serif" font-size="11" opacity="0.4">View Project →</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 220" width="560" height="220">
+  <defs>
+    <linearGradient id="arise-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#101820" />
+      <stop offset="100%" stop-color="#0D1520" />
+    </linearGradient>
+  </defs>
+  <rect width="560" height="220" fill="url(#arise-bg)" rx="6" />
+  <rect x="0.5" y="0.5" width="559" height="219" fill="none" stroke="#E8B44D" stroke-width="0.5" stroke-opacity="0.2" rx="6" />
+  
+  <!-- Network constellation visual -->
+  <g transform="translate(420, 110)" opacity="0.5">
+    <circle cx="0" cy="0" r="4" fill="#E8B44D" />
+    <circle cx="-50" cy="-30" r="3" fill="#167D8D" />
+    <circle cx="40" cy="-40" r="3" fill="#167D8D" />
+    <circle cx="-30" cy="40" r="2.5" fill="#167D8D" />
+    <circle cx="50" cy="30" r="2.5" fill="#167D8D" />
+    <circle cx="-60" cy="10" r="2" fill="#A77B4A" />
+    <circle cx="20" cy="50" r="2" fill="#A77B4A" />
+    <circle cx="-20" cy="-55" r="2" fill="#A77B4A" />
+    <circle cx="60" cy="-10" r="2" fill="#A77B4A" />
+    <line x1="0" y1="0" x2="-50" y2="-30" stroke="#E8B44D" stroke-width="0.5" stroke-opacity="0.4" />
+    <line x1="0" y1="0" x2="40" y2="-40" stroke="#E8B44D" stroke-width="0.5" stroke-opacity="0.4" />
+    <line x1="0" y1="0" x2="-30" y2="40" stroke="#E8B44D" stroke-width="0.5" stroke-opacity="0.4" />
+    <line x1="0" y1="0" x2="50" y2="30" stroke="#E8B44D" stroke-width="0.5" stroke-opacity="0.4" />
+    <line x1="-50" y1="-30" x2="-60" y2="10" stroke="#167D8D" stroke-width="0.3" stroke-opacity="0.3" />
+    <line x1="40" y1="-40" x2="60" y2="-10" stroke="#167D8D" stroke-width="0.3" stroke-opacity="0.3" />
+    <line x1="-50" y1="-30" x2="-20" y2="-55" stroke="#167D8D" stroke-width="0.3" stroke-opacity="0.3" />
+    <line x1="50" y1="30" x2="20" y2="50" stroke="#167D8D" stroke-width="0.3" stroke-opacity="0.3" />
+  </g>
+
+  <!-- Project label -->
+  <text x="35" y="42" fill="#E8B44D" font-family="Georgia, serif" font-size="11" letter-spacing="4" opacity="0.5">01</text>
+  <text x="35" y="75" fill="#F3E9D2" font-family="Georgia, serif" font-size="28" letter-spacing="2">ARISE</text>
+  <line x1="35" y1="85" x2="180" y2="85" stroke="#E8B44D" stroke-width="0.5" stroke-opacity="0.3" />
+  
+  <!-- Description -->
+  <text x="35" y="110" fill="#F3E9D2" font-family="Segoe UI, sans-serif" font-size="12" opacity="0.8">Local-first AI agent orchestrator with 231 typed</text>
+  <text x="35" y="128" fill="#F3E9D2" font-family="Segoe UI, sans-serif" font-size="12" opacity="0.8">capabilities, cryptographic approval gates, and</text>
+  <text x="35" y="146" fill="#F3E9D2" font-family="Segoe UI, sans-serif" font-size="12" opacity="0.8">sandboxed execution for coding workflows.</text>
+
+  <!-- Tech tags -->
+  <text x="35" y="180" fill="#167D8D" font-family="Segoe UI, sans-serif" font-size="10" letter-spacing="1">NODE.JS · TYPESCRIPT · SQLITE · OLLAMA</text>
+  
+  <!-- Arrow hint -->
+  <text x="35" y="202" fill="#E8B44D" font-family="Georgia, serif" font-size="11" opacity="0.4">View Project →</text>
+</svg>

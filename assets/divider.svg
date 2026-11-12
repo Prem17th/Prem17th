@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 20" width="1200" height="20">
+  <defs>
+    <linearGradient id="line-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#101820" />
+      <stop offset="30%" stop-color="#E8B44D" />
+      <stop offset="50%" stop-color="#A77B4A" />
+      <stop offset="70%" stop-color="#E8B44D" />
+      <stop offset="100%" stop-color="#101820" />
+    </linearGradient>
+  </defs>
+  <line x1="100" y1="10" x2="560" y2="10" stroke="url(#line-grad)" stroke-width="0.5" />
+  <line x1="640" y1="10" x2="1100" y2="10" stroke="url(#line-grad)" stroke-width="0.5" />
+  <!-- Compass Rose -->
+  <g transform="translate(600,10)">
+    <polygon points="0,-8 2,-2 0,-3 -2,-2" fill="#E8B44D" />
+    <polygon points="0,8 2,2 0,3 -2,2" fill="#A77B4A" />
+    <polygon points="-8,0 -2,-2 -3,0 -2,2" fill="#A77B4A" />
+    <polygon points="8,0 2,-2 3,0 2,2" fill="#E8B44D" />
+    <circle cx="0" cy="0" r="1.5" fill="#E8B44D" />
+  </g>
+</svg>

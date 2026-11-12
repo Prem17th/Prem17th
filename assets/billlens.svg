@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 220" width="560" height="220">
+  <defs>
+    <linearGradient id="bl-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#101820" />
+      <stop offset="100%" stop-color="#15100D" />
+    </linearGradient>
+  </defs>
+  <rect width="560" height="220" fill="url(#bl-bg)" rx="6" />
+  <rect x="0.5" y="0.5" width="559" height="219" fill="none" stroke="#A77B4A" stroke-width="0.5" stroke-opacity="0.2" rx="6" />
+  
+  <!-- Document scan / receipt visual -->
+  <g transform="translate(420, 100)" opacity="0.45">
+    <!-- Receipt shape -->
+    <rect x="-30" y="-55" width="60" height="80" rx="2" fill="none" stroke="#A77B4A" stroke-width="1" />
+    <!-- Zigzag bottom (receipt tear) -->
+    <path d="M-30,25 L-24,30 L-18,25 L-12,30 L-6,25 L0,30 L6,25 L12,30 L18,25 L24,30 L30,25" fill="none" stroke="#A77B4A" stroke-width="0.8" />
+    <!-- Text lines on receipt -->
+    <line x1="-20" y1="-40" x2="20" y2="-40" stroke="#F3E9D2" stroke-width="0.8" stroke-opacity="0.3" />
+    <line x1="-20" y1="-30" x2="15" y2="-30" stroke="#F3E9D2" stroke-width="0.5" stroke-opacity="0.2" />
+    <line x1="-20" y1="-20" x2="18" y2="-20" stroke="#F3E9D2" stroke-width="0.5" stroke-opacity="0.2" />
+    <line x1="-20" y1="-10" x2="10" y2="-10" stroke="#F3E9D2" stroke-width="0.5" stroke-opacity="0.2" />
+    <line x1="-20" y1="0" x2="20" y2="0" stroke="#E8B44D" stroke-width="0.8" stroke-opacity="0.4" />
+    <line x1="-20" y1="10" x2="12" y2="10" stroke="#F3E9D2" stroke-width="0.5" stroke-opacity="0.2" />
+    <!-- Scan line -->
+    <line x1="-35" y1="-5" x2="35" y2="-5" stroke="#D84A43" stroke-width="0.5" stroke-opacity="0.4" stroke-dasharray="3,3" />
+    <!-- Data extraction arrows -->
+    <path d="M35,-30 L50,-30 L50,40" fill="none" stroke="#167D8D" stroke-width="0.5" stroke-opacity="0.4" />
+    <path d="M35,-10 L55,-10 L55,40" fill="none" stroke="#167D8D" stroke-width="0.5" stroke-opacity="0.4" />
+    <!-- Small chart -->
+    <rect x="40" y="42" width="6" height="12" fill="#167D8D" opacity="0.3" />
+    <rect x="48" y="38" width="6" height="16" fill="#E8B44D" opacity="0.3" />
+    <rect x="56" y="44" width="6" height="10" fill="#167D8D" opacity="0.3" />
+  </g>
+
+  <text x="35" y="42" fill="#A77B4A" font-family="Georgia, serif" font-size="11" letter-spacing="4" opacity="0.5">06</text>
+  <text x="35" y="75" fill="#F3E9D2" font-family="Georgia, serif" font-size="28" letter-spacing="2">BILLLENS</text>
+  <line x1="35" y1="85" x2="210" y2="85" stroke="#A77B4A" stroke-width="0.5" stroke-opacity="0.3" />
+  
+  <text x="35" y="110" fill="#F3E9D2" font-family="Segoe UI, sans-serif" font-size="12" opacity="0.8">Autonomous MSME financial intelligence with</text>
+  <text x="35" y="128" fill="#F3E9D2" font-family="Segoe UI, sans-serif" font-size="12" opacity="0.8">invoice auditing, cash-flow forecasting,</text>
+  <text x="35" y="146" fill="#F3E9D2" font-family="Segoe UI, sans-serif" font-size="12" opacity="0.8">price-creep detection, and underwriting scoring.</text>
+
+  <text x="35" y="180" fill="#A77B4A" font-family="Segoe UI, sans-serif" font-size="10" letter-spacing="1">PYTHON · OCR · OPENAI · GEMINI · LEAFLET · AWS</text>
+  <text x="35" y="202" fill="#A77B4A" font-family="Georgia, serif" font-size="11" opacity="0.4">View Project →</text>
+</svg>

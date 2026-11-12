@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#101820" />
+      <stop offset="100%" stop-color="#0A1218" />
+    </linearGradient>
+    <linearGradient id="card-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8B44D" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#A77B4A" stop-opacity="0.1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1200" height="420" fill="url(#bg-grad)" rx="8" />
+  
+  <!-- Title -->
+  <text x="600" y="45" text-anchor="middle" fill="#E8B44D" font-family="Georgia, serif" font-size="22" letter-spacing="6" font-weight="400">THE ARSENAL</text>
+  <line x1="480" y1="58" x2="720" y2="58" stroke="#E8B44D" stroke-width="0.5" stroke-opacity="0.4" />
+  
+  <!-- Category 1: AI & Machine Learning -->
+  <g transform="translate(30, 80)">
+    <rect width="270" height="310" rx="6" fill="#101820" stroke="#E8B44D" stroke-width="0.5" stroke-opacity="0.25" />
+    <text x="135" y="35" text-anchor="middle" fill="#E8B44D" font-family="Georgia, serif" font-size="13" letter-spacing="3">AI &amp; MACHINE LEARNING</text>
+    <line x1="40" y1="48" x2="230" y2="48" stroke="#E8B44D" stroke-width="0.3" stroke-opacity="0.3" />
+    <!-- Items -->
+    <circle cx="50" cy="80" r="3" fill="#167D8D" />
+    <text x="65" y="84" fill="#F3E9D2" font-family="Segoe UI, sans-serif" font-size="13">Python</text>
+    <circle cx="50" cy="110" r="3" fill="#167D8D" />
+    <text x="65" y="114" fill="#F3E9D2" font-family="Segoe UI, sans-serif" font-size="13">TensorFlow / PyTorch</text>
+    <circle cx="50" cy="140" r="3" fill="#167D8D" />
+    <text x="65" y="144" fill="#F3E9D2" font-family="Segoe UI, sans-serif" font-size="13">Scikit-learn</text>
+    <circle cx="50" cy="170" r="3" fill="#167D8D" />
+    <text x="65" y="174" fill="#F3E9D2" font-family="Segoe UI, sans-serif" font-size="13">OpenCV</text>
+    <circle cx="50" cy="200" r="3" fill="#167D8D" />
+    <text x="65" y="204" fill="#F3E9D2" font-family="Segoe UI, sans-serif" font-size="13">OpenAI / Gemini API</text>
+    <circle cx="50" cy="230" r="3" fill="#167D8D" />
+    <text x="65" y="234" fill="#F3E9D2" font-family="Segoe UI, sans-serif" font-size="13">NLP / Transformers</text>
+    <circle cx="50" cy="260" r="3" fill="#167D8D" />
+    <text x="65" y="264" fill="#F3E9D2" font-family="Segoe UI, sans-serif" font-size="13">AWS Bedrock</text>
+  </g>
+
+  <!-- Category 2: Full-Stack Development -->
+  <g transform="translate(320, 80)">
+    <rect width="270" height="310" rx="6" fill="#101820" stroke="#E8B44D" stroke-width="0.5" stroke-opacity="0.25" />
+    <text x="135" y="35" text-anchor="middle" fill="#E8B44D" font-family="Georgia, serif" font-size="13" letter-spacing="3">FULL-STACK</text>
+    <line x1="40" y1="48" x2="230" y2="48" stroke="#E8B44D" stroke-width="0.3" stroke-opacity="0.3" />
+    <circle cx="50" cy="80" r="3" fill="#167D8D" />
+    <text x="65" y="84" fill="#F3E9D2" font-family="Segoe UI, sans-serif" font-size="13">React / Next.js</text>
+    <circle cx="50" cy="110" r="3" fill="#167D8D" />
+    <text x="65" y="114" fill="#F3E9D2" font-family="Segoe UI, sans-serif" font-size="13">TypeScript</text>
+    <circle cx="50" cy="140" r="3" fill="#167D8D" />
+    <text x="65" y="144" fill="#F3E9D2" font-family="Segoe UI, sans-serif" font-size="13">Node.js / Express</text>
+    <circle cx="50" cy="170" r="3" fill="#167D8D" />
+    <text x="65" y="174" fill="#F3E9D2" font-family="Segoe UI, sans-serif" font-size="13">FastAPI / Flask</text>
+    <circle cx="50" cy="200" r="3" fill="#167D8D" />
+    <text x="65" y="204" fill="#F3E9D2" font-family="Segoe UI, sans-serif" font-size="13">Tailwind CSS</text>
+    <circle cx="50" cy="230" r="3" fill="#167D8D" />
+    <text x="65" y="234" fill="#F3E9D2" font-family="Segoe UI, sans-serif" font-size="13">Vite</text>
+    <circle cx="50" cy="260" r="3" fill="#167D8D" />
+    <text x="65" y="264" fill="#F3E9D2" font-family="Segoe UI, sans-serif" font-size="13">Streamlit</text>
+  </g>
+
+  <!-- Category 3: Data & Infrastructure -->
+  <g transform="translate(610, 80)">
+    <rect width="270" height="310" rx="6" fill="#101820" stroke="#E8B44D" stroke-width="0.5" stroke-opacity="0.25" />
+    <text x="135" y="35" text-anchor="middle" fill="#E8B44D" font-family="Georgia, serif" font-size="13" letter-spacing="3">DATA &amp; INFRA</text>
+    <line x1="40" y1="48" x2="230" y2="48" stroke="#E8B44D" stroke-width="0.3" stroke-opacity="0.3" />
+    <circle cx="50" cy="80" r="3" fill="#167D8D" />
+    <text x="65" y="84" fill="#F3E9D2" font-family="Segoe UI, sans-serif" font-size="13">PostgreSQL</text>
+    <circle cx="50" cy="110" r="3" fill="#167D8D" />
+    <text x="65" y="114" fill="#F3E9D2" font-family="Segoe UI, sans-serif" font-size="13">MongoDB</text>
+    <circle cx="50" cy="140" r="3" fill="#167D8D" />
+    <text x="65" y="144" fill="#F3E9D2" font-family="Segoe UI, sans-serif" font-size="13">SQLite</text>
+    <circle cx="50" cy="170" r="3" fill="#167D8D" />
+    <text x="65" y="174" fill="#F3E9D2" font-family="Segoe UI, sans-serif" font-size="13">Supabase / Firebase</text>
+    <circle cx="50" cy="200" r="3" fill="#167D8D" />
+    <text x="65" y="204" fill="#F3E9D2" font-family="Segoe UI, sans-serif" font-size="13">Docker</text>
+    <circle cx="50" cy="230" r="3" fill="#167D8D" />
+    <text x="65" y="234" fill="#F3E9D2" font-family="Segoe UI, sans-serif" font-size="13">AWS Step Functions</text>
+  </g>
+
+  <!-- Category 4: Tools & Practices -->
+  <g transform="translate(900, 80)">
+    <rect width="270" height="310" rx="6" fill="#101820" stroke="#E8B44D" stroke-width="0.5" stroke-opacity="0.25" />
+    <text x="135" y="35" text-anchor="middle" fill="#E8B44D" font-family="Georgia, serif" font-size="13" letter-spacing="3">TOOLS</text>
+    <line x1="40" y1="48" x2="230" y2="48" stroke="#E8B44D" stroke-width="0.3" stroke-opacity="0.3" />
+    <circle cx="50" cy="80" r="3" fill="#167D8D" />
+    <text x="65" y="84" fill="#F3E9D2" font-family="Segoe UI, sans-serif" font-size="13">Git / GitHub</text>
+    <circle cx="50" cy="110" r="3" fill="#167D8D" />
+    <text x="65" y="114" fill="#F3E9D2" font-family="Segoe UI, sans-serif" font-size="13">Linux / CLI</text>
+    <circle cx="50" cy="140" r="3" fill="#167D8D" />
+    <text x="65" y="144" fill="#F3E9D2" font-family="Segoe UI, sans-serif" font-size="13">VS Code / Cursor</text>
+    <circle cx="50" cy="170" r="3" fill="#167D8D" />
+    <text x="65" y="174" fill="#F3E9D2" font-family="Segoe UI, sans-serif" font-size="13">Alembic / Migrations</text>
+    <circle cx="50" cy="200" r="3" fill="#167D8D" />
+    <text x="65" y="204" fill="#F3E9D2" font-family="Segoe UI, sans-serif" font-size="13">pytest</text>
+    <circle cx="50" cy="230" r="3" fill="#167D8D" />
+    <text x="65" y="234" fill="#F3E9D2" font-family="Segoe UI, sans-serif" font-size="13">n8n / Automation</text>
+  </g>
+</svg>

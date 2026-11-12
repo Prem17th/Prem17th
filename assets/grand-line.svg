@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" width="1200" height="200">
+  <defs>
+    <linearGradient id="gl-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#101820" />
+      <stop offset="100%" stop-color="#0A1218" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="200" fill="url(#gl-bg)" rx="4" />
+  
+  <!-- Faint grid lines (map feel) -->
+  <g opacity="0.06" stroke="#F3E9D2" stroke-width="0.5">
+    <line x1="0" y1="50" x2="1200" y2="50" />
+    <line x1="0" y1="100" x2="1200" y2="100" />
+    <line x1="0" y1="150" x2="1200" y2="150" />
+    <line x1="200" y1="0" x2="200" y2="200" />
+    <line x1="400" y1="0" x2="400" y2="200" />
+    <line x1="600" y1="0" x2="600" y2="200" />
+    <line x1="800" y1="0" x2="800" y2="200" />
+    <line x1="1000" y1="0" x2="1000" y2="200" />
+  </g>
+  
+  <!-- Route path (dotted line journey) -->
+  <path d="M80,160 C150,150 200,100 300,110 C400,120 420,70 520,80 C620,90 650,130 720,100 C790,70 830,60 900,75 C970,90 1000,50 1080,55" 
+        fill="none" stroke="#E8B44D" stroke-width="1.5" stroke-dasharray="8,5" stroke-opacity="0.6" />
+  
+  <!-- Island markers along the route -->
+  <!-- Start point -->
+  <circle cx="80" cy="160" r="5" fill="#D84A43" opacity="0.7" />
+  <circle cx="80" cy="160" r="8" fill="none" stroke="#D84A43" stroke-width="0.5" opacity="0.4" />
+  <text x="80" y="180" text-anchor="middle" fill="#F3E9D2" font-family="Georgia, serif" font-size="8" opacity="0.4">ORIGIN</text>
+  
+  <!-- Island 1 -->
+  <circle cx="300" cy="110" r="4" fill="#167D8D" opacity="0.6" />
+  <text x="300" y="100" text-anchor="middle" fill="#167D8D" font-family="Segoe UI, sans-serif" font-size="7" opacity="0.5">ARISE</text>
+  
+  <!-- Island 2 -->
+  <circle cx="520" cy="80" r="4" fill="#D84A43" opacity="0.6" />
+  <text x="520" y="70" text-anchor="middle" fill="#D84A43" font-family="Segoe UI, sans-serif" font-size="7" opacity="0.5">PAYVIGIL</text>
+  
+  <!-- Island 3 -->
+  <circle cx="720" cy="100" r="4" fill="#167D8D" opacity="0.6" />
+  <text x="720" y="90" text-anchor="middle" fill="#167D8D" font-family="Segoe UI, sans-serif" font-size="7" opacity="0.5">EPISTEMIC</text>
+  
+  <!-- Island 4 -->
+  <circle cx="900" cy="75" r="4" fill="#E8B44D" opacity="0.6" />
+  <text x="900" y="65" text-anchor="middle" fill="#E8B44D" font-family="Segoe UI, sans-serif" font-size="7" opacity="0.5">CLAIMLENS</text>
+  
+  <!-- Current position (arrow/ship) -->
+  <circle cx="1080" cy="55" r="5" fill="#E8B44D" opacity="0.8" />
+  <circle cx="1080" cy="55" r="9" fill="none" stroke="#E8B44D" stroke-width="0.5" stroke-dasharray="2,2" opacity="0.4" />
+  <text x="1080" y="45" text-anchor="middle" fill="#E8B44D" font-family="Georgia, serif" font-size="8" opacity="0.5">NOW</text>
+  
+  <!-- Compass Rose (bottom-left) -->
+  <g transform="translate(1140, 160)">
+    <circle cx="0" cy="0" r="18" fill="none" stroke="#E8B44D" stroke-width="0.5" stroke-opacity="0.25" />
+    <circle cx="0" cy="0" r="12" fill="none" stroke="#E8B44D" stroke-width="0.3" stroke-opacity="0.15" />
+    <!-- N -->
+    <polygon points="0,-16 2,-6 -2,-6" fill="#D84A43" opacity="0.6" />
+    <text x="0" y="-19" text-anchor="middle" fill="#D84A43" font-family="Georgia, serif" font-size="6" opacity="0.5">N</text>
+    <!-- S -->
+    <polygon points="0,16 2,6 -2,6" fill="#E8B44D" opacity="0.4" />
+    <!-- E -->
+    <polygon points="16,0 6,2 6,-2" fill="#E8B44D" opacity="0.4" />
+    <!-- W -->
+    <polygon points="-16,0 -6,2 -6,-2" fill="#E8B44D" opacity="0.4" />
+    <circle cx="0" cy="0" r="2" fill="#E8B44D" opacity="0.5" />
+  </g>
+  
+  <!-- Title -->
+  <text x="600" y="28" text-anchor="middle" fill="#E8B44D" font-family="Georgia, serif" font-size="14" letter-spacing="6" opacity="0.4">T H E   G R A N D   L I N E</text>
+</svg>
